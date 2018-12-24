@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <title>GDG Leiria</title>
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/5.7.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/5.7.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.7.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.7.1/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.7.1/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+</head>
+<body>
+<div class="navbar-fixed">
+    <nav class="grey darken-4 " role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">
+            <img id="img-header" src="images/header-logo.svg"/>
+        </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a onclick="scrollEvents()">Events</a></li>
+                <li><a onclick="scrollAbout()">About</a></li>
+                <li><a onclick="scrollAbout()">Team</a></li>
+                <li><a onclick="scrollSocial()">Social</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Social</a></li>
+            </ul>
+
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+</div>
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <br>
+        <div class="row">
+            <div id="events" class="col s12">
+                <div class="card" id="card-events">
+                    <div class="card-content">
+                        <span class="card-title"> <h2 style="color:#e63125;"> Events </h2></span>
+                        <div id="card-events-content">
+                            <h5> Soon something to be announced!</h5>
+                            <br/>
+                            <br/>
+                            <img src="images/android-wip.png"/>
+                            <br/>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="about" class="col s4" >
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title"><h2 style="color:#3174f0;">About us </h2></span>
+                        <div id="card-about-content">
+                            <br>
+                            <p>
+                                GDG Leiria is part of the 700+ GDG Communities all over the world and the 5th to appear
+                                in
+                                Portugal.
+                            </p>
+                            &nbsp;
+                            <p>
+                                This is a community of technology enthusiasts and developers, whose aim is to promote
+                                events (conferences and workshops) related to the world of development, innovation and
+                                technology and also promote the share of knowledge between all members.
+                            </p>
+                            &nbsp;
+                            <p>
+                                We are always open to new ideas for events or activities from everyone, so that we can
+                                improve and try to please every taste.
+                            </p>
+                            &nbsp;
+                            <p>
+                                Feel free to contact us and suggest your ideas!
+                            </p>
+
+                            <p>
+                                <a href="mailto:gdgleiria@gmail.com" target="_blank">Send Mail</a>
+                            </p>
+                            <br>
+                            <img src="images/GDG_Leiria_Banner_Rounded_Final.png.png" style="width:100%; height:auto; margin-bottom: -30px"/>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col s8">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title"><h2 style="color:#249a41;">Team</h2></span>
+                        <div id="card-team-content">
+                            <br>
+
+                            <div class="row">
+                                <div class="col s2">
+                                    <img class="avatar" src="images/pedro.jpg" title="Pedro Alves" alt="Pedro Alves">
+                                </div>
+
+                                <div class=" col s4 member-details">
+                                    <h5 class="name">Pedro Alves</h5>
+                                    <div class="activity"></div>
+                                    <div class="contacts">
+                                        <a href="mailto:pedrompalves95@gmail.com" target="_blank"><i style='font-size:20px' class='far'>&#xf0e0;</i></a>
+                                        <a href="https://github.com/petealves" target="_blank"><i style='font-size:20px' class='fab'>&#xf09b;</i></a>
+
+                                    </div>
+                                </div>
+
+                                <div class="col s2">
+                                    <img class="avatar" src="images/ricardo.jpeg" title="Ricardo Maltez"
+                                         alt="Ricardo Maltez">
+                                </div>
+
+                                <div class=" col s4 member-details">
+                                    <h5 class="name">Ricardo Maltez</h5>
+                                    <div class="activity"></div>
+                                    <div class="contacts">
+                                        <a href="mailto:ricardomaltez@gmail.com" target="_blank"><i style='font-size:20px' class='far'>&#xf0e0;</i></a>
+                                        <a href="https://github.com/freakstatic" target="_blank"><i style='font-size:20px' class='fab'>&#xf09b;</i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s2">
+                                    <img class="avatar" src="images/person.png" title="Bruno Oliveira"
+                                         alt="Bruno Oliveira">
+                                </div>
+
+                                <div class=" col s4 member-details">
+                                    <h5 class="name">Bruno Oliveira</h5>
+                                    <div class="activity"></div>
+                                    <div class="contacts">
+
+                                    </div>
+                                </div>
+
+                                <div class="col s2">
+                                    <img class="avatar" src="images/person.png" title="Elton Santos"
+                                         alt="Elton Santos">
+                                </div>
+
+                                <div class=" col s4 member-details">
+                                    <h5 class="name">Elton Santos</h5>
+                                    <div class="activity"></div>
+                                    <div class="contacts">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s2">
+                                    <img class="avatar" src="images/person.png" title="José Ribeiro" alt="José Ribeiro">
+                                </div>
+
+                                <div class=" col s4 member-details">
+                                    <h5 class="name">José Ribeiro</h5>
+                                    <div class="activity"></div>
+                                    <div class="contacts">
+
+                                    </div>
+                                </div>
+
+                                <div class="col s2">
+                                    <img class="avatar" src="images/person.png" title="Rúben Caceiro"
+                                         alt="Rúben Caceiro">
+                                </div>
+
+                                <div class=" col s4 member-details">
+                                    <h5 class="name">Rúben Caceiro</h5>
+                                    <div class="activity"></div>
+                                    <div class="contacts">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s2">
+                                    <img class="avatar" src="images/person.png" title="Miguel Sousa"
+                                         alt="Miguel Sousa">
+                                </div>
+
+                                <div class=" col s4 member-details">
+                                    <h5 class="name">Miguel Sousa</h5>
+                                    <div class="activity"></div>
+                                    <div class="contacts">
+
+                                    </div>
+                                </div>
+
+                                <div class="col s2">
+                                    <img class="avatar" src="images/person.png" title="Bernardo Borges"
+                                         alt="Bernardo Borges">
+                                </div>
+
+                                <div class=" col s4 member-details">
+                                    <h5 class="name">Bernardo Borges</h5>
+                                    <div class="activity"></div>
+                                    <div class="contacts">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div id="social" class="row">
+            <div class="col s3">
+                <div class="row">
+                    <a href="https://www.facebook.com/gdgleiria" target="_blank">
+                        <div class="col s3">
+                            <img class="img-social" src="images/facebook.svg" title="Página de Facebook"
+                                 alt="Página de Facebook"/>
+                        </div>
+
+                        <div class=" col s9 member-details">
+                            <h6 class="name">Follow us on Facebook</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="row">
+                    <a href="https://www.meetup.com/pt-BR/GDG-Leiria/" target="_blank">
+                        <div class="col s3">
+                            <img class="img-social" src="images/meetup.svg" title="Página de Meetup"
+                                 alt="Página de Meetup"/>
+                        </div>
+
+                        <div class=" col s9 member-details">
+                            <h6 class="name">Join us on Meetup</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="row">
+                    <a href="https://twitter.com/GdgLeiria" target="_blank">
+                        <div class="col s3">
+                            <img class="img-social" src="images/twitter.svg" title="Twitter" alt="Twitter"/>
+                        </div>
+
+                        <div class=" col s9 member-details">
+                            <h6 class="name">Follow us on Twitter</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="row">
+                    <div class="col s3">
+                        <img class="img-social" src="images/instagram.svg" title="Instagram" alt="Instagram"/>
+                    </div>
+
+                    <div class=" col s9 member-details">
+                        <h6 class="name">Follow us on Instagram</h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div id="footer-left-content" class="col l6 s12">
+                <p>
+                    Disclaimer: GDG Leiria is an independent group; our activities and the opinions expressed
+                    here should in no way be linked to Google, the corporation.
+                </p>
+                <p>
+                    To learn more about the GDG program, visit <a href="https://developers.google.com/groups/"
+                                                                  target="_blank"> Google Developers Groups </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--<div class="footer-copyright">-->
+    <!--<div class="container">-->
+    <!--Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>-->
+    <!--</div>-->
+    <!--</div>-->
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+</body>
+</html>
+

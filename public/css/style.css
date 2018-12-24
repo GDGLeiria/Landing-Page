@@ -1,0 +1,77 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#img-header {
+    vertical-align: middle;
+    width: 200px;
+}
+
+.page-footer {
+    background-color: #dd9b00;
+}
+
+.page-footer{
+    overflow: hidden;
+}
+
+body {
+    background-color: #E0E0E0;
+
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+#card-events {
+
+}
+
+#card-events-content {
+    text-align: center;
+}
+
+#card-about-content {
+
+}
+
+#footer-left-content{
+    font-size: 12px;
+}
+
+h2{
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 100px;
+    height:auto;
+    border: 3px solid;
+
+}
+
+.img-social {
+    width: 100%;
+    max-width: 70px;
+    height:auto;
+}
+
+.member-details {
+    padding-left: 30px;
+}
