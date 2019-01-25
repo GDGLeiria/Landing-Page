@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddbbf4cb-0c77-414e-9204-4f279bee177b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/events/Cartaz_Workshop_AutoML_Leiria_v5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,14 +16,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="113" column="92" selection-start-line="113" selection-start-column="92" selection-end-line="113" selection-end-column="92" />
+            <state relative-caret-position="489">
+              <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#3770#3776#0" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3961#3967#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#4429#4435#0" expanded="true" />
                 <element signature="e#4844#4850#0" expanded="true" />
                 <element signature="e#5388#5394#0" expanded="true" />
@@ -202,12 +199,12 @@
       <workItem from="1545593115377" duration="11558000" />
       <workItem from="1545613421648" duration="4655000" />
       <workItem from="1546182723625" duration="6963000" />
-      <workItem from="1548375124311" duration="2467000" />
+      <workItem from="1548375124311" duration="2933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28035000" />
+    <option name="totallyTimeSpent" value="28501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -250,7 +247,7 @@
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3770#3776#0" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3961#3967#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#4429#4435#0" expanded="true" />
             <element signature="e#4844#4850#0" expanded="true" />
             <element signature="e#5388#5394#0" expanded="true" />
@@ -308,7 +305,7 @@
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3770#3776#0" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3961#3967#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#4429#4435#0" expanded="true" />
             <element signature="e#4844#4850#0" expanded="true" />
             <element signature="e#5388#5394#0" expanded="true" />
@@ -367,7 +364,7 @@
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3770#3776#0" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3961#3967#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#4429#4435#0" expanded="true" />
             <element signature="e#4844#4850#0" expanded="true" />
             <element signature="e#5388#5394#0" expanded="true" />
@@ -412,7 +409,7 @@
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3770#3776#0" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3961#3967#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#4429#4435#0" expanded="true" />
             <element signature="e#4844#4850#0" expanded="true" />
             <element signature="e#5388#5394#0" expanded="true" />
@@ -471,14 +468,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="113" column="92" selection-start-line="113" selection-start-column="92" selection-end-line="113" selection-end-column="92" />
+        <state relative-caret-position="489">
+          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3770#3776#0" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3961#3967#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#4429#4435#0" expanded="true" />
             <element signature="e#4844#4850#0" expanded="true" />
             <element signature="e#5388#5394#0" expanded="true" />
