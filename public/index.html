@@ -29,7 +29,8 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'
+          integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
 </head>
 <body>
 <div class="navbar-fixed">
@@ -45,10 +46,10 @@
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
-                <li><a href="#">Events</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Social</a></li>
+                <li><a onclick="console.log('TESTE')">Events</a></li>
+                <li><a onclick="scrollAbout()">About</a></li>
+                <li><a onclick="scrollAbout()">Team</a></li>
+                <li><a onclick="scrollSocial()">Social</a></li>
             </ul>
 
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -74,7 +75,9 @@
                     </div>
                 </div>
             </div>
-            <div id="about" class="col s4" >
+        </div>
+        <div class="row">
+            <div id="about" class="col s12 m4 l4">
                 <div class="card">
                     <div class="card-content">
                         <span class="card-title"><h2 style="color:#3174f0;">About us </h2></span>
@@ -105,13 +108,14 @@
                                 <a href="mailto:gdgleiria@gmail.com" target="_blank">Send Mail</a>
                             </p>
                             <br>
-                            <img src="images/GDG_Leiria_Banner_Rounded_Final.png.png" style="width:100%; height:auto; margin-bottom: -30px"/>
+                            <img src="images/GDG_Leiria_Banner_Rounded_Final.png.png"
+                                 style="width:100%; height:auto; margin-bottom: -30px"/>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="col s8">
+            <div class="col s12 m8 l8">
                 <div class="card">
                     <div class="card-content">
                         <span class="card-title"><h2 style="color:#249a41;">Team</h2></span>
@@ -119,182 +123,218 @@
                             <br>
 
                             <div class="row">
-                                <div class="col s2">
-                                    <img class="avatar" src="images/pedro.jpg" title="Pedro Alves" alt="Pedro Alves">
+                                <div class="col s12 m6 l6 team-member">
+                                    <div class="col s4 m5 l4">
+                                        <img class="avatar" src="images/pedro.jpg" title="Pedro Alves"
+                                             alt="Pedro Alves">
+                                    </div>
+
+                                    <div class="col s8 m7 l8 member-details">
+                                        <h5 class="name">Pedro Alves</h5>
+                                        <div class="activity"></div>
+                                        <div class="contacts">
+                                            <a href="mailto:pedrompalves95@gmail.com" target="_blank"><i
+                                                    style='font-size:20px' class='far'>&#xf0e0;</i></a>
+                                            &nbsp;
+                                            <a href="https://github.com/petealves" target="_blank"><i
+                                                    style='font-size:20px'
+                                                    class='fab'>&#xf09b;</i></a>
+
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="col s12 m6 l6 team-member">
+                                    <div class="col s4 m5 l4">
+                                        <img class="avatar" src="images/ricardo.jpeg" title="Ricardo Maltez"
+                                             alt="Ricardo Maltez">
+                                    </div>
 
-                                <div class=" col s4 member-details">
-                                    <h5 class="name">Pedro Alves</h5>
-                                    <div class="activity"></div>
-                                    <div class="contacts">
-                                        <a href="mailto:pedrompalves95@gmail.com" target="_blank"><i style='font-size:20px' class='far'>&#xf0e0;</i></a>
-                                        <a href="https://github.com/petealves" target="_blank"><i style='font-size:20px' class='fab'>&#xf09b;</i></a>
-
+                                    <div class=" col s6 m7 l8 member-details">
+                                        <h5 class="name">Ricardo Maltez</h5>
+                                        <div class="activity"></div>
+                                        <div class="contacts">
+                                            <a href="mailto:ricardomaltez@gmail.com" target="_blank"><i
+                                                    style='font-size:20px' class='far'>&#xf0e0;</i></a>
+                                            &nbsp;
+                                            <a href="https://github.com/freakstatic" target="_blank"><i
+                                                    style='font-size:20px' class='fab'>&#xf09b;</i></a>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="col s2">
-                                    <img class="avatar" src="images/ricardo.jpeg" title="Ricardo Maltez"
-                                         alt="Ricardo Maltez">
-                                </div>
+                            </div>
+                            <br class="hide-on-small-only">
+                            <div class="row">
+                                <div class="col s12 m6 l6 team-member">
+                                    <div class="col s4 m5 l4">
+                                        <img class="avatar" src="images/person.png" title="Bruno Oliveira"
+                                             alt="Bruno Oliveira">
+                                    </div>
 
-                                <div class=" col s4 member-details">
-                                    <h5 class="name">Ricardo Maltez</h5>
-                                    <div class="activity"></div>
-                                    <div class="contacts">
-                                        <a href="mailto:ricardomaltez@gmail.com" target="_blank"><i style='font-size:20px' class='far'>&#xf0e0;</i></a>
-                                        <a href="https://github.com/freakstatic" target="_blank"><i style='font-size:20px' class='fab'>&#xf09b;</i></a>
+                                    <div class=" col s6 m7 l8 member-details">
+                                        <h5 class="name">Bruno Oliveira</h5>
+                                        <div class="activity"></div>
+                                        <div class="contacts">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s12 m6 l6 team-member">
+                                    <div class="col s4 m5 l4">
+                                        <img class="avatar" src="images/person.png" title="Elton Santos"
+                                             alt="Elton Santos">
+                                    </div>
+
+                                    <div class=" col s6 m7 l8 member-details">
+                                        <h5 class="name">Elton Santos</h5>
+                                        <div class="activity"></div>
+                                        <div class="contacts">
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
+                            <br class="hide-on-small-only">
                             <div class="row">
-                                <div class="col s2">
-                                    <img class="avatar" src="images/person.png" title="Bruno Oliveira"
-                                         alt="Bruno Oliveira">
-                                </div>
+                                <div class="col s12 m6 l6 team-member">
+                                    <div class="col s4 m5 l4">
+                                        <img class="avatar" src="images/person.png" title="José Ribeiro"
+                                             alt="José Ribeiro">
+                                    </div>
 
-                                <div class=" col s4 member-details">
-                                    <h5 class="name">Bruno Oliveira</h5>
-                                    <div class="activity"></div>
-                                    <div class="contacts">
+                                    <div class=" col s6 m7 l8 member-details">
+                                        <h5 class="name">José Ribeiro</h5>
+                                        <div class="activity"></div>
+                                        <div class="contacts">
 
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="col s12 m6 l6 team-member">
+                                    <div class="col s4 m5 l4">
+                                        <img class="avatar" src="images/person.png" title="Rúben Caceiro"
+                                             alt="Rúben Caceiro">
+                                    </div>
 
-                                <div class="col s2">
-                                    <img class="avatar" src="images/person.png" title="Elton Santos"
-                                         alt="Elton Santos">
-                                </div>
+                                    <div class=" col s6 m7 l8 member-details">
+                                        <h5 class="name">Rúben Caceiro</h5>
+                                        <div class="activity"></div>
+                                        <div class="contacts">
 
-                                <div class=" col s4 member-details">
-                                    <h5 class="name">Elton Santos</h5>
-                                    <div class="activity"></div>
-                                    <div class="contacts">
-
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
+                            <br class="hide-on-small-only">
                             <div class="row">
-                                <div class="col s2">
-                                    <img class="avatar" src="images/person.png" title="José Ribeiro" alt="José Ribeiro">
-                                </div>
+                                <div class="col s12 m6 l6 team-member">
+                                    <div class="col s4 m5 l4">
+                                        <img class="avatar" src="images/miguel.jpg" title="Miguel Sousa"
+                                             alt="Miguel Sousa">
+                                    </div>
 
-                                <div class=" col s4 member-details">
-                                    <h5 class="name">José Ribeiro</h5>
-                                    <div class="activity"></div>
-                                    <div class="contacts">
+                                    <div class=" col s6 m7 l8 member-details">
+                                        <h5 class="name">Miguel Sousa</h5>
+                                        <div class="activity"></div>
+                                        <div class="contacts">
+                                            <a href="mailto:miguelsousa.14@gmail.com" target="_blank"><i
+                                                    style='font-size:20px' class='far'>&#xf0e0;</i></a>
 
+                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="col s2">
-                                    <img class="avatar" src="images/person.png" title="Rúben Caceiro"
-                                         alt="Rúben Caceiro">
-                                </div>
-
-                                <div class=" col s4 member-details">
-                                    <h5 class="name">Rúben Caceiro</h5>
-                                    <div class="activity"></div>
-                                    <div class="contacts">
-
+                                <div class="col s12 m6 l6 team-member">
+                                    <div class="col s4 m5 l4">
+                                        <img class="avatar" src="images/bernardo.jpg" title="Bernardo Borges"
+                                             alt="Bernardo Borges">
                                     </div>
-                                </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="col s2">
-                                    <img class="avatar" src="images/person.png" title="Miguel Sousa"
-                                         alt="Miguel Sousa">
-                                </div>
-
-                                <div class=" col s4 member-details">
-                                    <h5 class="name">Miguel Sousa</h5>
-                                    <div class="activity"></div>
-                                    <div class="contacts">
-
-                                    </div>
-                                </div>
-
-                                <div class="col s2">
-                                    <img class="avatar" src="images/person.png" title="Bernardo Borges"
-                                         alt="Bernardo Borges">
-                                </div>
-
-                                <div class=" col s4 member-details">
-                                    <h5 class="name">Bernardo Borges</h5>
-                                    <div class="activity"></div>
-                                    <div class="contacts">
-
+                                    <div class=" col s6 m7 l8 member-details">
+                                        <h5 class="name">Bernardo Borges</h5>
+                                        <div class="activity"></div>
+                                        <div class="contacts">
+                                            <a href="mailto:bernardo_filipe89@hotmail.com" target="_blank"><i
+                                                    style='font-size:20px' class='far'>&#xf0e0;</i></a>
+                                            &nbsp;
+                                            <a href="https://github.com/kishido" target="_blank"><i
+                                                    style='font-size:20px'
+                                                    class='fab'>&#xf09b;</i></a>
+                                            &nbsp;
+                                            <a href="https://twitter.com/kishido88" target="_blank"><i
+                                                    style='font-size:20px' class='fab'>&#xf099;</i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <br>
                 <br>
                 <br>
             </div>
         </div>
         <div id="social" class="row">
-            <div class="col s3">
-                <div class="row">
+            <div class="col s12 m6 l6 no-padding">
+                <div class="col s6 m6 l6">
                     <a href="https://www.facebook.com/gdgleiria" target="_blank">
-                        <div class="col s3">
+                        <div class="col s4 m3 l3">
                             <img class="img-social" src="images/facebook.svg" title="Página de Facebook"
                                  alt="Página de Facebook"/>
                         </div>
 
-                        <div class=" col s9 member-details">
-                            <h6 class="name">Follow us on Facebook</h6>
+                        <div class=" col s8 m9 l9 member-details">
+                            <h6 class="hide-on-small-and-down">Follow us on Facebook</h6>
+                            <h7 class="social-description-mobile hide-on-med-and-up"> Follow us on Facebook</h7>
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="col s3">
-                <div class="row">
+                <div class="col s6 m6 l6">
                     <a href="https://www.meetup.com/pt-BR/GDG-Leiria/" target="_blank">
-                        <div class="col s3">
+                        <div class="col s4 m3 l3">
                             <img class="img-social" src="images/meetup.svg" title="Página de Meetup"
                                  alt="Página de Meetup"/>
                         </div>
 
-                        <div class=" col s9 member-details">
-                            <h6 class="name">Join us on Meetup</h6>
+                        <div class=" col s8 m9 l9 member-details">
+                            <h6 class="hide-on-small-and-down">Join us on Meetup</h6>
+                            <h7 class="social-description-mobile hide-on-med-and-up">Join us on Meetup</h7>
                         </div>
                     </a>
                 </div>
             </div>
-            <div class="col s3">
-                <div class="row">
+            <br class="hide-on-med-and-up">
+            <br class="hide-on-med-and-up">
+            <br class="hide-on-med-and-up">
+            <div class="col s12 m6 l6 no-padding">
+                <div class="col s6 m6 l6">
                     <a href="https://twitter.com/GdgLeiria" target="_blank">
-                        <div class="col s3">
+                        <div class="col s4 m3 l3">
                             <img class="img-social" src="images/twitter.svg" title="Twitter" alt="Twitter"/>
                         </div>
 
-                        <div class=" col s9 member-details">
-                            <h6 class="name">Follow us on Twitter</h6>
+                        <div class=" col s8 m9 l9 member-details">
+                            <h6 class="hide-on-small-and-down">Follow us on Twitter</h6>
+                            <h7 class="social-description-mobile hide-on-med-and-up">Follow us on Twitter</h7>
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="col s3">
-                <div class="row">
-                    <div class="col s3">
+                <div class="col s6 m6 l6">
+                    <div class="col s4 m3 l3">
                         <img class="img-social" src="images/instagram.svg" title="Instagram" alt="Instagram"/>
                     </div>
 
-                    <div class=" col s9 member-details">
-                        <h6 class="name">Follow us on Instagram</h6>
+                    <div class=" col s8 m9 l9 member-details">
+                        <h6 class="hide-on-small-and-down">Follow us on Instagram</h6>
+                        <h7 class="social-description-mobile hide-on-med-and-up">Follow us on Instagram</h7>
                     </div>
-
                 </div>
             </div>
+            <br>
         </div>
     </div>
 </div>
+<br>
+<br>
 <footer class="page-footer">
     <div class="container">
         <div class="row">
