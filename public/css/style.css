@@ -19,7 +19,7 @@
 }
 
 .page-footer {
-    background-color: #dd9b00;
+    background-color: #102027;
 }
 
 .page-footer{
@@ -28,7 +28,6 @@
 
 body {
     background-color: #E0E0E0;
-
 }
 
 html{
@@ -96,4 +95,8 @@ h2{
 
 .sidenav-overlay{
     z-index: 0;
+}
+
+.name{
+    font-size:1.2rem;
 }

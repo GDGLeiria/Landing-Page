@@ -1,1 +1,5 @@
-{}
+{
+  "projects": {
+    "website-landing": "website-landing"
+  }
+}
