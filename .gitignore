@@ -65,3 +65,7 @@ node_modules/
 .env
 
 \.idea/vcs\.xml
+
+\.idea/
+
+\.DS_Store
