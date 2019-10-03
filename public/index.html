@@ -25,7 +25,7 @@
     <script defer src="/__/firebase/5.7.1/firebase-storage.js"></script>
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/core.js" integrity="sha256-36hEPcG8mKookfvUVvEqRkpdYV1unP6wvxIqbgdeVhk=" crossorigin="anonymous"></script>
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -37,7 +37,7 @@
 </head>
 <body>
 <div class="navbar-fixed">
-    <nav style="background-color: #37474f" role="navigation">
+    <nav style="background-color: #455a64" role="navigation">
         <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">
             <!--<img id="img-header" src="images/header-logo-old.svg"/>-->
             <img id="img-header" src="images/header-logo.png"/>
@@ -70,24 +70,13 @@
                 <div class="card" id="card-events">
                     <div class="card-content">
                         <span class="card-title"> <h2 style="color:#e63125;"> Events </h2></span>
-                        <div id="card-events-content">
+                        <div id="card-events-content" align="center" >
                             <!--<h4 style="text-align: center">DevFest 2019</h4>-->
-                            <div style="text-align: center">
-                                <p>
-                                    Hello World! We are very happy to share with you that we are currently organizing our first DevFest that will be realized on 14th December.
-                                </p>
-                                <p>
-                                    At this moment we have a Call 4 Speakers open until September 30th, and more news will roll-out soon. Want to apply to help us make this day an unforgettable epic day?
-                                </p>
-                            </br>
-                                <p>
-                                    <a href="https://forms.gle/3WZBnWJpFwkfYufV6" target="_blank">➡️➡️Apply here!⬅️⬅️</a>
-                                </p>
-                            </div>
-                            </br>
-                            <img style="width:100%" src="images/devfest19.gif"/>
-                            </br>
-
+                            <a href="https://devfest.gdgleiria.xyz" target="_blank">
+                                <img style="width:100%" src="images/social-share.jpg"/>
+                                <img style="width:60% " src="images/DEVFEST-ENG.jpg"/>
+                                </br>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -228,6 +217,9 @@
                                         <h6 class="name">Rúben Caceiro</h6>
                                         <div class="activity"></div>
                                         <div class="contacts">
+                                            <a href="https://github.com/rcaceiro" target="_blank"><i
+                                                    style='font-size:20px'
+                                                    class='fab'>&#xf09b;</i></a>
 
                                         </div>
                                     </div>
@@ -350,7 +342,6 @@
 
 
 <!--  Scripts-->
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
 
